@@ -9,7 +9,7 @@
 // Project Name: Single Cycle Processor
 // Description: Test bench. UAT = pc, a module describing a program counter.
 // 
-// Dependencies: pc module
+// Dependencies: pc.sv
 // 
 // Revision:
 // Revision 0.01 - File Created

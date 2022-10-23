@@ -10,7 +10,7 @@
 // Description: Test bench. UAT = pc_target, a module adding immediate value to the
 //              current PC for possible branch or jump address.
 // 
-// Dependencies: pc_target module
+// Dependencies: pc_target.sv
 // 
 // Revision:
 // Revision 0.01 - File Created

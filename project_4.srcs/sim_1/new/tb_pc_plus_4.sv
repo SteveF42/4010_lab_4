@@ -9,7 +9,7 @@
 // Project Name: Single Cycle Processor
 // Description: Test bench. UAT = pc_plus_4, a module adding 4 to the current PC.
 // 
-// Dependencies: pc_plus_4 module
+// Dependencies: pc_plus_4.sv
 // 
 // Revision:
 // Revision 0.01 - File Created
