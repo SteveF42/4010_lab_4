@@ -33,7 +33,7 @@ module tb_register_file();
             // Load operation: write to register 4, control is 1
             A3 <= 'd4; WD3 <= 'haabbccdd; #20;
             
-            // Store operation: read from registers 3 and 4, control is A1
+            // Store operation: read from registers 3 and 4, control is 0
             WE3 <= 0; A1 <= 'd3; A2 <= 'd4; #20;
             assert (RD1 == 'h12345678 && RD2 == 'haabbccdd) else $error("Incorrect values stored in target registers.");
         end
