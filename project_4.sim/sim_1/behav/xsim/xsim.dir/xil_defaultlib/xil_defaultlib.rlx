@@ -5,5 +5,7 @@ Jun 10 2021
 C:/Users/17072/Desktop/CSUSB/Fall 2022/CSE-4010/Labs/Lab_4/4010_lab_4/project_4.sim/sim_1/behav/xsim/glbl.v,1623370582,verilog,,,,glbl,,uvm,,,,,,
 C:/Users/17072/Desktop/CSUSB/Fall 2022/CSE-4010/Labs/Lab_4/4010_lab_4/project_4.srcs/sim_1/new/tb_pc.sv,1666550562,systemVerilog,,,,tb_pc,,uvm,,,,,,
 C:/Users/17072/Desktop/CSUSB/Fall 2022/CSE-4010/Labs/Lab_4/4010_lab_4/project_4.srcs/sim_1/new/tb_pc_plus_4.sv,1666553508,systemVerilog,,,,tb_pc_plus_4,,uvm,,,,,,
+C:/Users/17072/Desktop/CSUSB/Fall 2022/CSE-4010/Labs/Lab_4/4010_lab_4/project_4.srcs/sim_1/new/tb_pc_target.sv,1666555007,systemVerilog,,,,tb_pc_target,,uvm,,,,,,
 C:/Users/17072/Desktop/CSUSB/Fall 2022/CSE-4010/Labs/Lab_4/4010_lab_4/project_4.srcs/sources_1/new/pc.sv,1666550560,systemVerilog,,C:/Users/17072/Desktop/CSUSB/Fall 2022/CSE-4010/Labs/Lab_4/4010_lab_4/project_4.srcs/sim_1/new/tb_pc.sv,,pc,,uvm,,,,,,
 C:/Users/17072/Desktop/CSUSB/Fall 2022/CSE-4010/Labs/Lab_4/4010_lab_4/project_4.srcs/sources_1/new/pc_plus_4.sv,1666552915,systemVerilog,,C:/Users/17072/Desktop/CSUSB/Fall 2022/CSE-4010/Labs/Lab_4/4010_lab_4/project_4.srcs/sim_1/new/tb_pc_plus_4.sv,,pc_plus_4,,uvm,,,,,,
+C:/Users/17072/Desktop/CSUSB/Fall 2022/CSE-4010/Labs/Lab_4/4010_lab_4/project_4.srcs/sources_1/new/pc_target.sv,1666553901,systemVerilog,,C:/Users/17072/Desktop/CSUSB/Fall 2022/CSE-4010/Labs/Lab_4/4010_lab_4/project_4.srcs/sim_1/new/tb_pc_target.sv,,pc_target,,uvm,,,,,,
