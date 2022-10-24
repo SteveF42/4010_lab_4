@@ -29,12 +29,12 @@ output logic [31:0] result
     
     always_comb
     case(control)
-        0: result = src1 + src2;
-        1: result = src1 - src2;
-        2: result = src1 & src2;
-        3: result = src1 | src2; 
-        5: result = (src1 < src2) ? 1 : 0;
+        3'b000: result = src1 + src2;
+        3'b001: result = src1 - src2;
+        3'b010: result = src1 & src2;
+        3'b011: result = src1 | src2; 
+        3'b101: result = (src1 < src2) ? 1 : 0;
         default: result = 0;
     endcase
-    
+    assign zero = (result) ? 0 : 1;
 endmodule
