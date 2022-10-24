@@ -27,35 +27,33 @@ logic[31:0]src2;
 logic [2:0]control;
 logic [31:0] result;
 
-ALU exec(.src1(src1), .src2(src2), .control(control), .result(result));
+  ALU exec(.src1(src1), .src2(src2), .control(control), .result(result), .zero(zero);
 
 initial 
-
 begin
 src1 = 2;
 src2 = 1;
-control = 0;
+control = 3'b000;
 #20;
 src1 = 2;
 src2 = 1;
-control = 1;
+control = 3'b001;
 #20;
 src1 = 0;
 src2 = 1;
-control = 2;
+control = 3'b010;
 #20;
 src1 = 0;
 src2 = 1;
-control = 3;
+control = 3'b011;
 #20;
 src1 = 0;
 src2 = 1;
-control = 5;
+control = 3'b101;
 #20;
 src1 = 2;
 src2 = 1;
-control = 5;
+control = 3'b101;
 #20;
 end
-
 endmodule
