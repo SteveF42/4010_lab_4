@@ -35,22 +35,22 @@ begin
 input1 = 0;
 input2 = 1;
 input3 = 2;
-select = 0;
+select = 2'b00;
 #20;
 input1 = 0;
 input2 = 1;
 input3 = 2;
-select = 1;
+select = 2'b01;
 #20;
 input1 = 0;
 input2 = 1;
 input3 = 2;
-select = 2;
+select = 2'b10;
 #20;
 input1 = 0;
 input2 = 1;
 input3 = 2;
-select = 3;
+select = 2'b11;
 #20;
 end
 endmodule
