@@ -24,7 +24,8 @@ module ALU(
 input logic [31:0]src1,
 input logic[31:0]src2,
 input logic [2:0]control,
-output logic [31:0] result
+output logic [31:0] result,
+output logic zero
     );
     
     always_comb
