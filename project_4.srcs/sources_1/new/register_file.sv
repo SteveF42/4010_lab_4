@@ -30,7 +30,7 @@ module register_file(
                 RAM[A3] <= WD3;
         end
         
-    assign RD1 = RAM[A1];
-    assign RD2 = RAM[A2];
+    assign RD1 = (A1 != 0)?RAM[A1]:0;
+    assign RD2 = (A2 != 0)?RAM[A2]:0;
     
 endmodule
