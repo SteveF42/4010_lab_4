@@ -30,10 +30,10 @@ output logic [31:0]cout
 
 always_comb
     case(select)
-        0: cout = input1;
-        1: cout = input2;
-        2: cout = input3;
-        3: cout = input3;
+        2'b00: cout = input1;
+        2'b01: cout = input2;
+        2'b10 cout = input3;
+        default:0;
     endcase
 endmodule
 
