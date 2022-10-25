@@ -1,0 +1,16 @@
+#-----------------------------------------------------------
+# Vivado v2021.1 (64-bit)
+# SW Build 3247384 on Thu Jun 10 19:36:33 MDT 2021
+# IP Build 3246043 on Fri Jun 11 00:30:35 MDT 2021
+# Start of session at: Sun Oct 23 11:55:16 2022
+# Process ID: 13472
+# Current directory: C:/Users/17072/Desktop/CSUSB/Fall 2022/CSE-4010/Labs/Lab_4/4010_lab_4
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent10888 C:\Users\17072\Desktop\CSUSB\Fall 2022\CSE-4010\Labs\Lab_4\4010_lab_4\project_4.xpr
+# Log file: C:/Users/17072/Desktop/CSUSB/Fall 2022/CSE-4010/Labs/Lab_4/4010_lab_4/vivado.log
+# Journal file: C:/Users/17072/Desktop/CSUSB/Fall 2022/CSE-4010/Labs/Lab_4/4010_lab_4\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project {C:/Users/17072/Desktop/CSUSB/Fall 2022/CSE-4010/Labs/Lab_4/4010_lab_4/project_4.xpr}
+update_compile_order -fileset sources_1
+save_project_as project_4 {C:/Users/17072/Desktop/CSUSB/Fall 2022/CSE-4010/Labs/Lab_4} -exclude_run_results -force
+import_files
