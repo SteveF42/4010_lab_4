@@ -56,7 +56,11 @@
     <Option Name="IPUserFilesDir" Val="$PIPUSERFILESDIR"/>
     <Option Name="IPStaticSourceDir" Val="$PIPUSERFILESDIR/ipstatic"/>
     <Option Name="EnableBDX" Val="FALSE"/>
+<<<<<<< HEAD
     <Option Name="WTXSimLaunchSim" Val="28"/>
+=======
+    <Option Name="WTXSimLaunchSim" Val="11"/>
+>>>>>>> 9c8ffcce526d4a22c6a071ade99b7f82d69be976
     <Option Name="WTModelSimLaunchSim" Val="0"/>
     <Option Name="WTQuestaLaunchSim" Val="0"/>
     <Option Name="WTIesLaunchSim" Val="0"/>
@@ -87,6 +91,88 @@
   <FileSets Version="1" Minor="31">
     <FileSet Name="sources_1" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1" RelGenDir="$PGENDIR/sources_1">
       <Filter Type="Srcs"/>
+<<<<<<< HEAD
+=======
+      <File Path="$PSRCDIR/sources_1/imports/new/ALU.sv">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../../4010_lab_4/project_4.srcs/sources_1/new/ALU.sv"/>
+          <Attr Name="ImportTime" Val="1666659440"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/new/mux2_1.sv">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../../4010_lab_4/project_4.srcs/sources_1/new/mux2_1.sv"/>
+          <Attr Name="ImportTime" Val="1666659440"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/new/mux3_1.sv">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../../4010_lab_4/project_4.srcs/sources_1/new/mux3_1.sv"/>
+          <Attr Name="ImportTime" Val="1666659440"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/new/pc.sv">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../../4010_lab_4/project_4.srcs/sources_1/new/pc.sv"/>
+          <Attr Name="ImportTime" Val="1666658962"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/new/pc_plus_4.sv">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../../4010_lab_4/project_4.srcs/sources_1/new/pc_plus_4.sv"/>
+          <Attr Name="ImportTime" Val="1666658962"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/new/pc_target.sv">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../../4010_lab_4/project_4.srcs/sources_1/new/pc_target.sv"/>
+          <Attr Name="ImportTime" Val="1666658962"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/new/register_file.sv">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../../4010_lab_4/project_4.srcs/sources_1/new/register_file.sv"/>
+          <Attr Name="ImportTime" Val="1666659440"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/new/sign_extender.sv">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../../4010_lab_4/project_4.srcs/sources_1/new/sign_extender.sv"/>
+          <Attr Name="ImportTime" Val="1666659440"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/new/datapath.sv">
+        <FileInfo>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+>>>>>>> 9c8ffcce526d4a22c6a071ade99b7f82d69be976
       <File Path="$PSRCDIR/sources_1/imports/new/ALU_decoder.sv">
         <FileInfo>
           <Attr Name="ImportPath" Val="$PPRDIR/../../4010_lab_4/project_4.srcs/sources_1/new/ALU_decoder.sv"/>
@@ -100,56 +186,6 @@
         <FileInfo>
           <Attr Name="AutoDisabled" Val="1"/>
           <Attr Name="ImportPath" Val="$PPRDIR/../../4010_lab_4/project_4.srcs/sources_1/new/sign_extender.sv"/>
-          <Attr Name="ImportTime" Val="1666659440"/>
-          <Attr Name="UsedIn" Val="synthesis"/>
-          <Attr Name="UsedIn" Val="implementation"/>
-          <Attr Name="UsedIn" Val="simulation"/>
-        </FileInfo>
-      </File>
-      <File Path="$PSRCDIR/sources_1/imports/new/mux2_1.sv">
-        <FileInfo>
-          <Attr Name="AutoDisabled" Val="1"/>
-          <Attr Name="ImportPath" Val="$PPRDIR/../../4010_lab_4/project_4.srcs/sources_1/new/mux2_1.sv"/>
-          <Attr Name="ImportTime" Val="1666659440"/>
-          <Attr Name="UsedIn" Val="synthesis"/>
-          <Attr Name="UsedIn" Val="implementation"/>
-          <Attr Name="UsedIn" Val="simulation"/>
-        </FileInfo>
-      </File>
-      <File Path="$PSRCDIR/sources_1/imports/new/pc.sv">
-        <FileInfo>
-          <Attr Name="AutoDisabled" Val="1"/>
-          <Attr Name="ImportPath" Val="$PPRDIR/../../4010_lab_4/project_4.srcs/sources_1/new/pc.sv"/>
-          <Attr Name="ImportTime" Val="1666658962"/>
-          <Attr Name="UsedIn" Val="synthesis"/>
-          <Attr Name="UsedIn" Val="implementation"/>
-          <Attr Name="UsedIn" Val="simulation"/>
-        </FileInfo>
-      </File>
-      <File Path="$PSRCDIR/sources_1/imports/new/pc_plus_4.sv">
-        <FileInfo>
-          <Attr Name="AutoDisabled" Val="1"/>
-          <Attr Name="ImportPath" Val="$PPRDIR/../../4010_lab_4/project_4.srcs/sources_1/new/pc_plus_4.sv"/>
-          <Attr Name="ImportTime" Val="1666658962"/>
-          <Attr Name="UsedIn" Val="synthesis"/>
-          <Attr Name="UsedIn" Val="implementation"/>
-          <Attr Name="UsedIn" Val="simulation"/>
-        </FileInfo>
-      </File>
-      <File Path="$PSRCDIR/sources_1/imports/new/pc_target.sv">
-        <FileInfo>
-          <Attr Name="AutoDisabled" Val="1"/>
-          <Attr Name="ImportPath" Val="$PPRDIR/../../4010_lab_4/project_4.srcs/sources_1/new/pc_target.sv"/>
-          <Attr Name="ImportTime" Val="1666658962"/>
-          <Attr Name="UsedIn" Val="synthesis"/>
-          <Attr Name="UsedIn" Val="implementation"/>
-          <Attr Name="UsedIn" Val="simulation"/>
-        </FileInfo>
-      </File>
-      <File Path="$PSRCDIR/sources_1/imports/new/register_file.sv">
-        <FileInfo>
-          <Attr Name="AutoDisabled" Val="1"/>
-          <Attr Name="ImportPath" Val="$PPRDIR/../../4010_lab_4/project_4.srcs/sources_1/new/register_file.sv"/>
           <Attr Name="ImportTime" Val="1666659440"/>
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="implementation"/>
@@ -176,6 +212,7 @@
           <Attr Name="UsedIn" Val="simulation"/>
         </FileInfo>
       </File>
+<<<<<<< HEAD
       <File Path="$PSRCDIR/sources_1/imports/new/ALU.sv">
         <FileInfo>
           <Attr Name="AutoDisabled" Val="1"/>
@@ -207,6 +244,11 @@
       <Config>
         <Option Name="DesignMode" Val="RTL"/>
         <Option Name="TopModule" Val="ALU_decoder"/>
+=======
+      <Config>
+        <Option Name="DesignMode" Val="RTL"/>
+        <Option Name="TopModule" Val="datapath"/>
+>>>>>>> 9c8ffcce526d4a22c6a071ade99b7f82d69be976
       </Config>
     </FileSet>
     <FileSet Name="constrs_1" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1" RelGenDir="$PGENDIR/constrs_1">
@@ -217,8 +259,23 @@
     </FileSet>
     <FileSet Name="sim_1" Type="SimulationSrcs" RelSrcDir="$PSRCDIR/sim_1" RelGenDir="$PGENDIR/sim_1">
       <Filter Type="Srcs"/>
+<<<<<<< HEAD
       <File Path="$PSRCDIR/sim_1/new/ALU_decoder_tb.sv">
         <FileInfo>
+=======
+      <File Path="$PSRCDIR/sim_1/new/tb_datapath.sv">
+        <FileInfo>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sim_1/imports/new/sign_extender_tb.sv">
+        <FileInfo>
+          <Attr Name="AutoDisabled" Val="1"/>
+          <Attr Name="ImportPath" Val="$PPRDIR/../../4010_lab_4/project_4.srcs/sources_1/new/sign_extender_tb.sv"/>
+          <Attr Name="ImportTime" Val="1666659440"/>
+>>>>>>> 9c8ffcce526d4a22c6a071ade99b7f82d69be976
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="implementation"/>
           <Attr Name="UsedIn" Val="simulation"/>
@@ -326,7 +383,11 @@
       </File>
       <Config>
         <Option Name="DesignMode" Val="RTL"/>
+<<<<<<< HEAD
         <Option Name="TopModule" Val="ALU_decoder_tb"/>
+=======
+        <Option Name="TopModule" Val="tb_datapath"/>
+>>>>>>> 9c8ffcce526d4a22c6a071ade99b7f82d69be976
         <Option Name="TopLib" Val="xil_defaultlib"/>
         <Option Name="TransportPathDelay" Val="0"/>
         <Option Name="TransportIntDelay" Val="0"/>
