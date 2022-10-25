@@ -2,6 +2,6 @@
 2020.2
 Jun 10 2021
 20:04:57
-C:/Users/17072/Desktop/new_p4/4010_lab_4/4010_lab_4.sim/sim_1/behav/xsim/glbl.v,1623370582,verilog,,,,glbl,,uvm,,,,,,
-C:/Users/17072/Desktop/new_p4/4010_lab_4/4010_lab_4.srcs/sim_1/imports/new/sign_extender_tb.sv,1666661540,systemVerilog,,,,sign_extender_tb,,uvm,,,,,,
-C:/Users/17072/Desktop/new_p4/4010_lab_4/4010_lab_4.srcs/sources_1/imports/new/sign_extender.sv,1666659440,systemVerilog,,C:/Users/17072/Desktop/new_p4/4010_lab_4/4010_lab_4.srcs/sim_1/imports/new/sign_extender_tb.sv,,sign_extender,,uvm,,,,,,
+C:/Users/17072/Desktop/4010_lab_4/4010_lab_4.sim/sim_1/behav/xsim/glbl.v,1623370582,verilog,,,,glbl,,uvm,,,,,,
+C:/Users/17072/Desktop/4010_lab_4/4010_lab_4.srcs/sim_1/imports/new/sign_extender_tb.sv,1666663288,systemVerilog,,,,sign_extender_tb,,uvm,,,,,,
+C:/Users/17072/Desktop/4010_lab_4/4010_lab_4.srcs/sources_1/imports/new/sign_extender.sv,1666659440,systemVerilog,,C:/Users/17072/Desktop/4010_lab_4/4010_lab_4.srcs/sim_1/imports/new/sign_extender_tb.sv,,sign_extender,,uvm,,,,,,

@@ -28,9 +28,20 @@ module sign_extender_tb();
     sign_extender sign_extender_dut(.in(instruction), .out(out), .immSrc(ctrl));
     initial
         begin
-            // addi x7, x3, -9 (I-type instruction)
+            // tests: addi x7, x3, -9 (I-type instruction)
             ctrl <= 'b00; instruction <= 'hFF718393; #20;
             assert (out == 'hfffffff7) else $error("out should be xfffffff7");
             
+            // tests: sw x7, 84(x3) (S-type instruction)
+            ctrl <= 'b01; instruction <= 'h0471AA23; #20;
+            assert (out == 'h00000054) else $error("out should be x00000054");
+            
+            // tests: beq  x5, x7, end (B-type instruction)
+            ctrl <= 'b10; instruction <= 'h02728863; #20;
+            assert (out == 'h00000030) else $error("out should be x00000030");
+            
+            // tests: jal  x3, end (J-type instruction)
+            ctrl <= 'b11; instruction <= 'h008001EF; #20;
+            assert (out == 'h00000008) else $error("out should be x00000008");
         end
 endmodule
