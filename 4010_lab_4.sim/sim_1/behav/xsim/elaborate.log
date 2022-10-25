@@ -1,6 +1,6 @@
 Vivado Simulator v2021.1
 Copyright 1986-1999, 2001-2021 Xilinx, Inc. All Rights Reserved.
-Running: C:/Xilinx/Vivado/2021.1/bin/unwrapped/win64.o/xelab.exe -wto df0b0ef311064cb08a34cc130889ab8d --incr --debug typical --relax --mt 2 -L xil_defaultlib -L uvm -L unisims_ver -L unimacro_ver -L secureip --snapshot sign_extender_tb_behav xil_defaultlib.sign_extender_tb xil_defaultlib.glbl -log elaborate.log 
+Running: C:/Xilinx/Vivado/2021.1/bin/unwrapped/win64.o/xelab.exe -wto df0b0ef311064cb08a34cc130889ab8d --incr --debug typical --relax --mt 2 -L xil_defaultlib -L uvm -L unisims_ver -L unimacro_ver -L secureip --snapshot tb_datapath_behav xil_defaultlib.tb_datapath xil_defaultlib.glbl -log elaborate.log 
 Using 2 slave threads.
 Starting static elaboration
 Pass Through NonSizing Optimizer
@@ -8,7 +8,11 @@ Completed static elaboration
 Starting simulation data flow analysis
 Completed simulation data flow analysis
 Time Resolution for simulation is 1ps
-Compiling module xil_defaultlib.sign_extender
-Compiling module xil_defaultlib.sign_extender_tb
+Compiling module xil_defaultlib.pc
+Compiling module xil_defaultlib.pc_plus_4
+Compiling module xil_defaultlib.pc_target
+Compiling module xil_defaultlib.mux2_1
+Compiling module xil_defaultlib.datapath
+Compiling module xil_defaultlib.tb_datapath
 Compiling module xil_defaultlib.glbl
-Built simulation snapshot sign_extender_tb_behav
+Built simulation snapshot tb_datapath_behav

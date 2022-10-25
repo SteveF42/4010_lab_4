@@ -15,13 +15,13 @@
 
 
 module pc(
-    input logic clk,
+    input logic clk, reset,
     input logic [31:0]next,
     output logic [31:0]current
     );
     
     always_ff@(posedge clk)
-        begin
-            current <= next;
-        end
+        if (reset) current <= 0;
+        else current <= next;
+
 endmodule
