@@ -22,7 +22,7 @@
 
 module ALU_decoder(
     input logic[1:0] ALUop,
-    input logic opcode, //bit 5 from opcode
+    input logic op5, //bit 5 from opcode
     input logic[2:0] funct3,
     input logic funct7, //bit 5 from funct 7
     output logic[2:0] ALUControl
@@ -34,10 +34,10 @@ module ALU_decoder(
     else if(ALUop[1:0] == 'b01) //sub
         ALUControl <= 'b001;
     else if(ALUop[1:0] == 'b10) // add sub SLT OR AND
-        if(funct3[2:0] == 'b000 & {opcode,funct7} != 'b11) // op5,funct7 == 00, 01, 10 add
+        if(funct3[2:0] == 'b000 & {op5,funct7} != 'b11) // op5,funct7 == 00, 01, 10 add
             ALUControl <= 'b000;
         else 
             ALUControl  <= 'b001; // op, funct7 == 11
-        
+
     
 endmodule

@@ -22,8 +22,7 @@
 
 module control_unit(
     input logic[6:0] opCode,
-    input logic[2:0] funct3,
-    input logic[6:0] funct7,
+    input logic zeroFlag,
     output logic PCsrc,
     output logic [1:0]resultSrc,
     output logic memWrite,
@@ -31,7 +30,6 @@ module control_unit(
     output logic [1:0]ALUSrc,
     output logic regWrite,
     output logic [1:0]ALUOp,
-    output logic [2:0] ALUControl
     );
     
     logic branch;
@@ -97,19 +95,11 @@ module control_unit(
     
     //PCSrc ptr I'm not 100 sure how this logic gate makes any sense 0 and branch or jump????
     always_comb begin
-    if((branch=='b0) || jump == 'b1)
+    if((branch == zeroFlag) || jump == 'b1)
         PCsrc <= 1;
     else
         PCsrc  <= 0;
     end
-    
-    //ALU ctrl truth table    
-    ALU_decoder alu(.ALUop(ALUOp[1:0]),
-        .opcode(opCode[4]),
-        .funct3(funct3[2:0]),
-        .funct7(funct7[4]),
-        .ALUControl (ALUControl [2:0])
-    );
-    
+
     
 endmodule

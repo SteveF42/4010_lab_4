@@ -21,7 +21,7 @@
 
 
 module control_unit_tb();
-    logic [31:0]instruction = 'h00500113;
+    logic [31:0]instruction;
     logic PCsrc;
     logic [1:0]resultSrc;
     logic memWrite;
@@ -29,26 +29,25 @@ module control_unit_tb();
     logic [1:0]ALUSrc;
     logic regWrite;
     logic [1:0]ALUOp;
-    logic [2:0] ALUControl;
+    logic zeroFlag = 0;
     
-    control_unit test(.opCode (instruction[6:0]),
-            .funct3(instruction[14:12]),
-            .funct7(instruction[30]),
+    control_unit test(
+            .opCode (instruction[6:0]),
+            .zeroFlag(zeroFlag),
             .PCsrc(PCsrc),
             .resultSrc(resultSrc),
             .memWrite(memWrite),
             .immSrc(immSrc),
             .ALUSrc(ALUSrc),
             .regWrite(regWrite),
-            .ALUOp(ALUOp),
-            .ALUControl(ALUControl)
+            .ALUOp(ALUOp)
         );
         
     always
     begin
         instruction[31:0] <='h00500113; //i type
         #100;
-        instruction[31:0] <='h0023E233; //or
+        instruction[31:0] <='h0023E233; // R type
         #100;
         instruction[31:0] <='h00020463; //beq
         #100;
