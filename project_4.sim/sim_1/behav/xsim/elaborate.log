@@ -1,14 +1,16 @@
-Vivado Simulator v2021.1
-Copyright 1986-1999, 2001-2021 Xilinx, Inc. All Rights Reserved.
-Running: C:/Xilinx/Vivado/2021.1/bin/unwrapped/win64.o/xelab.exe -wto 6c9b7d822af54703a968da5dc090466d --incr --debug typical --relax --mt 2 -L xil_defaultlib -L uvm -L unisims_ver -L unimacro_ver -L secureip --snapshot tb_register_file_behav xil_defaultlib.tb_register_file xil_defaultlib.glbl -log elaborate.log 
+Vivado Simulator v2022.1
+Copyright 1986-1999, 2001-2022 Xilinx, Inc. All Rights Reserved.
+Running: E:/Vivado/2022.1/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L uvm -L unisims_ver -L unimacro_ver -L secureip --snapshot control_unit_tb_behav xil_defaultlib.control_unit_tb xil_defaultlib.glbl -log elaborate.log 
 Using 2 slave threads.
 Starting static elaboration
 Pass Through NonSizing Optimizer
+WARNING: [VRFC 10-3091] actual bit length 1 differs from formal bit length 7 for port 'funct7' [E:/Vivado/steve/project_4/project_4.srcs/sources_1/new/control_unit_tb.sv:36]
 Completed static elaboration
 Starting simulation data flow analysis
 Completed simulation data flow analysis
 Time Resolution for simulation is 1ps
-Compiling module xil_defaultlib.register_file
-Compiling module xil_defaultlib.tb_register_file
+Compiling module xil_defaultlib.ALU_decoder
+Compiling module xil_defaultlib.control_unit
+Compiling module xil_defaultlib.control_unit_tb
 Compiling module xil_defaultlib.glbl
-Built simulation snapshot tb_register_file_behav
+Built simulation snapshot control_unit_tb_behav
