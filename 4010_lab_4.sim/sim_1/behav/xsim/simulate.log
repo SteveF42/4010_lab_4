@@ -1,4 +1,0 @@
-Time resolution is 1 ps
-Error: PC did not increment by PC + offset as expected.
-Time: 60 ns  Iteration: 0  Process: /tb_datapath/Initial36_1  Scope: tb_datapath  File: C:/Users/17072/Desktop/4010_lab_4/4010_lab_4.srcs/sim_1/new/tb_datapath.sv Line: 43
-$finish called at time : 60 ns : File "C:/Users/17072/Desktop/4010_lab_4/4010_lab_4.srcs/sim_1/new/tb_datapath.sv" Line 45
